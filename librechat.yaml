@@ -74,7 +74,7 @@ endpoints:
   custom:
     # Groq Example
     - name: 'groq'
-      apiKey: '${GROQ_API_KEY}'
+      apiKey: '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'
       baseURL: 'https://api.groq.com/openai/v1/'
       models:
         default:

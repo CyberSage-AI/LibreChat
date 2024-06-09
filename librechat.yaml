@@ -94,13 +94,13 @@ endpoints:
     - name: 'Mistral' # Unique name for the endpoint
       # For `apiKey` and `baseURL`, you can use environment variables that you define.
       # recommended environment variables:
-      apiKey: '${MISTRAL_API_KEY}'
+      apiKey: 'X5TCJOjoE6Ors5L4q6Kdw9tffNpdADH1'
       baseURL: 'https://api.mistral.ai/v1'
 
       # Models configuration
       models:
         # List of default models to use. At least one value is required.
-        default: ['mistral-tiny', 'mistral-small', 'mistral-medium']
+        default: ['mistral-tiny', 'mistral-small', 'mistral-medium','mistral-large', 'mistral-next']
         # Fetch option: Set to true to fetch models from API.
         fetch: true # Defaults to false.
 
